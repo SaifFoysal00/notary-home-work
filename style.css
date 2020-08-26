@@ -1,0 +1,262 @@
+body{
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+}
+/**header top start**/
+.container{
+	width:1080px;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+.header_top_area{
+	width:100%;
+	height: 50px;
+	background: #ddd;
+}
+.head_top_left{
+	float: left;
+
+}
+.head_top_left p{
+	color:white;
+}
+.head_top_right{
+	float: right;
+}
+.head_top_right i{
+   margin:0px 15px;
+   color:white;
+   cursor:pointer;
+   transition:0.3s;
+}
+.head_top_right i:hover{
+	color:#ff2a6f;
+	transform: rotate(360deg);
+}
+.head_top_right button{
+	text-transform: uppercase;
+	border:none;
+	width:100px;
+	height: 50px;
+	background:#ff2a6f;
+    color:white;
+    cursor:pointer;
+}
+/**header top end**/
+/**header start**/
+.header{
+	padding: 15px 0px;
+}
+.logo{
+	width:200px;
+	float:left;
+    
+}
+.logo img{
+	width:100%;
+    padding:5px 0px;
+}
+.menu{
+	float:right;
+}
+.menu ul{
+	list-style:none;
+}
+.menu ul li{
+	float:left;
+}
+.menu ul li a{
+	text-decoration:none;
+	font-size:13px;
+	font-weight: 600;
+	text-transform:capitalize;
+	padding:0px 20px;
+	color:#535c68;
+	transition:.3s;
+	
+}
+.menu ul li:last-child a{
+	padding:0px;
+}
+.menu ul li a:hover{
+	color:#ff2a6f;
+}
+.menu ul li a.active{
+	color:#ff2a6f;
+}
+/**header end**/
+/**banner start**/
+.banner_area{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)),url('./img/business.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+.b_content{
+    width:50%;
+    margin-top:100px;
+    margin-bottom: 100px;
+}
+.b_content h1{
+  font-size: 59px;
+  color: white;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+}
+.b_content p{
+   margin:0;
+   margin-bottom:10px;
+   color:white;
+
+}
+.b_content button{
+  text-transform: uppercase;
+  height: 40px;
+  padding:0px 10px;
+  border:none;
+  border-radius: 5px;
+  color:white;
+  background:#ff0e5c;
+  margin-top:25px;
+  cursor:pointer;
+}
+.b_content button:focus{
+	outline:0;
+}
+/**banner end**/
+
+/**work area start**/
+ .work_area{
+   
+ }
+ .header_top{
+ 	text-align: center;
+ 	margin-top:80px;
+ }
+ .header_top h2{
+ 	text-transform: capitalize;
+ }
+ .header_top p{
+ 	width:60%;
+ 	margin:0 auto;
+ 	color:#8a8787;
+ 	margin-bottom: 55px;
+ }
+ .work_items{
+ 	width:80%;
+ 	display: flex;
+ 	justify-content:space-between;
+ 	margin:0 auto;
+ 	text-align: center;
+
+ }
+ .item{
+ 	width:200px;
+ 	margin-bottom: 75px;
+ }
+/**work area start**/
+
+/**learn area start**/
+.learn_area{
+	background: #FAFAFA;
+}
+.learn_left_side{
+	width:50%;
+	float: left;
+	margin-top:85px;
+}
+.learn_left_side h2{
+    font-size: 27px;
+    text-transform: uppercase;
+}
+.learn_left_side p{
+	width:90%;
+	color:#8a8787;
+	margin-bottom: 30px;
+}
+.learn_left_side button{
+	text-transform: uppercase;
+	border:none;
+	background:#ff0e5c;
+	color:#fff;
+	padding: 10px 20px;
+	border-radius: 5px; 
+	cursor:pointer;
+	margin-bottom: 85px;
+}
+.learn_left_side button:focus{
+	outline:none;
+}
+.learn_right_side{
+	float: right;
+	margin-top:65px;
+	margin-right: 30px;
+}
+.learn_right_side img{
+	width:450px;
+	height: 270px;
+	box-shadow: 1px 1px 10px 7px #c7c7c7;
+	cursor: pointer;
+}
+/**learn area end**/
+/**feture area start**/
+.box_items{
+overflow:hidden;
+}
+.box {
+    width: 25.1%;
+    padding: 3%;
+    float: left;
+    /* border: 1px solid red; */
+    text-align: center;
+    margin: 1.1% 1.1%;
+    background: #fff;
+    box-shadow: 0px 0px 3px 1px #b9b9b9;
+    transition:all 0.3s;
+    /* margin-left: 1px; */
+}
+.box:hover{
+	box-shadow: 2px 2px 14px 4px #d0cdcd;;
+}
+.box img{
+	width:35px;
+	height: 35px;
+}
+.box h2{
+    
+}
+.box p{
+	color:#8a8787;
+	font-size:16px;
+	margin-top:65px;
+}
+.btn{
+	text-align: center;
+}
+.btn a{
+	text-decoration: none;
+    background: #fff;
+    box-shadow: 0px 0px 4px 1px #bdb6b6;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 70px 0px;
+    color: #ff0e5c;
+    text-transform: uppercase;
+    display: inline-block;
+    }
+	
+
+/**feture area end**/
+/* footer area start */
+#footer{
+	width:100%;
+	height:40px;
+	background: black;
+    color: white;
+}
+.container p{
+	text-align:center;
+}
+/* footer area end */
